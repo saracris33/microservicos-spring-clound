@@ -1,0 +1,8 @@
+server:
+  port: 8761
+  
+# CONFIGURA EUREKA PARA NAO SE REGISTRAR E NEM GUARDAR INFORMACOES CACHEADA LOCALMENTE
+eureka:
+  client:
+    fetch-registry: false 
+    register-with-eureka: false
